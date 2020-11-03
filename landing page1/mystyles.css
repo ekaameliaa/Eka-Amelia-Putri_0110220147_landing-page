@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url(rumah.jpg);
+    height: 670px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.ms;
+    margin: 10px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: 2px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50px -50px);
+}
+.title h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 70px;
+}
+.bottom{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50px -50px);
+}
+.btn{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.0s ease;
+    border-radius: 5px;
+    margin: 15pxpx;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+nav{
+    background-color: burlywood;
+    height: 850px;
+    background-size: cover;
+}
+
+h2{
+    font-family: sans-serif;
+    background-color: floralwhite;
+    color: rgb(231, 187, 12);
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    margin: 40px 0 0 30px;
+    position: relative;
+    top: 40px;
+}
+main{
+    background-color: lemonchiffon;
+    height: 550px;
+    background-size: cover;
+}
+.h2{
+    background-color: rgb(124, 106, 106);
+    color: lightskyblue;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.main_logo{
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-right: 40px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 100px;
+    text-align:justify ;
+    text-indent: 30px;
+    line-height: 20px;
+    margin-right: 40px;
+
+}
+h3{
+    clear: both;
+    color: rgb(11, 148, 102);
+    text-decoration: underline;
+    position: relative;
+    top: 100px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+table, tr, th{
+    border: 3px solid rgb(173, 161, 161);
+    border-collapse: collapse;
+    width: 50%;
+    background-color:rgb(241, 159, 100);
+    color: rgb(24, 22, 15);
+    position: relative;
+    margin-top: 120px;
+    margin-left: 30px;
+
+}
+table, tr, td{
+    border: 3px solid rgb(173, 161, 161);
+    border-collapse: collapse;
+    width: 50%;
+
+}
+footer{
+    padding: 30px 0;
+    background-color: rgb(65, 60, 60);
+    color: burlywood;
+    text-align: center;
+}
+a{
+    color: rgb(38, 199, 132);
+}
+
